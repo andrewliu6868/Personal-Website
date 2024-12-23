@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
 
 const MainPage = () => {
   return (
-    <div className="pb-20 pt-36">
-      
+    <div>
+        
     </div>
   )
 }
