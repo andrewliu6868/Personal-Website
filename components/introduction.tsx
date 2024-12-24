@@ -36,10 +36,10 @@ export default function Introduction() {
             delay: 0.1
            }}
         >
-            <Link href="#contact" className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition-all">Contact me here <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition"/></Link>
-            <a className="bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition-all">Download CV <HiDownload/></a>
-            <a className="bg-white p-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition-all"><BsLinkedin/></a>
-            <a className="bg-white p-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition-all"><FaGithub/></a>
+            <Link href="#contact" className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition-all cursor-pointer">Contact me here <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition"/></Link>
+            <a href="/CV.pdf" download={true} className="bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition-all cursor-pointer">Download CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/></a>
+            <a href="https://www.linkedin.com/in/andrew-liu-64b53a129/" target="_blank" className="bg-white p-4 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:bg-gray-950 active:scale-105 transition-all"><BsLinkedin/></a>
+            <a href="https://github.com/andrewliu6868" target="_blank" className="bg-white p-4 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:bg-gray-950 active:scale-105 transition-all"><FaGithub/></a>
         </motion.div>
     </section>
       
