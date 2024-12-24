@@ -1,12 +1,10 @@
-import MainPage from "@/components/MainPage";
 import Image from "next/image";
+import Introduction from "@/components/introduction";
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-      <div className="max-w-7xl w-full">
-        <MainPage/>
-      </div>
+    <main className="flex flex-col items-center px-4">
+      <Introduction />
     </main>
   );
 }
